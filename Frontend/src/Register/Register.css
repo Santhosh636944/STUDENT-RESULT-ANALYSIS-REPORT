@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.head-body-reg{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* height: 100vh; */
+    background-image: url("../img/AI6.jpg"); /* Ensure image is inside public/assets */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+
+.container-reg {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    max-width: 38%;
+}
+
+.registration-box {
+    background: rgba(17, 17, 17, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #4a90e2, #8e44ad);
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.links {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: white;
+}
+
+.links a {
+    color: #4a90e2;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 10px;
+    padding-bottom: 10px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 500px;
+    }
+    .registration-box {
+        padding: 34px;
+    }
+    .btn {
+        font-size: 20px;
+    }
+}
